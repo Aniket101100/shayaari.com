@@ -1,0 +1,136 @@
+body{
+    background-color: black;
+}
+
+.aman{
+    display: flex;
+    width: 100%;
+    opacity: 0.8s;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+.aman:hover{
+    opacity: 0.9s;
+    transition: 10s;
+    background-color: blue;
+}
+.a{
+    margin: 30px;
+    border: 5px solid#ff0000;
+    box-shadow: 4px 4px 4x 4px #ff00d4;
+}
+.a:hover{
+    box-shadow: 4px 4px 4x 4px goldenrod;
+    transition: 4s;
+}
+
+.a p{
+    width: 200px;
+    text-align: center;
+    margin-left: 50px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+
+.raj{
+    display: flex;
+    width: 100%;
+    opacity: 0.8s;
+    background-color: blue;
+    margin-bottom: 10px;
+}
+
+.raj:hover{
+    opacity: 0.9s;
+    transition: 10s;
+    background-color: yellow;
+}
+.b{
+    margin: 30px;
+    border: 5px solid#ff0000;
+    box-shadow: 4px 4px 4x 4px #ff00d4;
+}
+.b:hover{
+    box-shadow: 4px 4px 4x 4px goldenrod;
+    transition: 4s;
+}
+
+.b p{
+    width: 200px;
+    text-align: center;
+    margin-left: 50px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+
+
+.aniket{
+    display: flex;
+    width: 100%;
+    opacity: 0.8s;
+    background-color: yellow;
+    margin-bottom: 10px;
+}
+
+.aniket:hover{
+    opacity: 0.9s;
+    transition: 10s;
+    background-color: blue;
+}
+.c{
+    margin: 30px;
+    border: 5px solid#ff0000;
+    box-shadow: 4px 4px 4x 4px #ff00d4;
+}
+.c:hover{
+    box-shadow: 4px 4px 4x 4px goldenrod;
+    transition: 4s;
+}
+
+.c p{
+    width: 200px;
+    text-align: center;
+    margin-left: 50px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+
+
+.raaj{
+    display: flex;
+    width: 100%;
+    opacity: 0.8s;
+    background-color: rgb(69, 24, 233);
+    margin-bottom: 10px;
+}
+
+.raaj:hover{
+    opacity: 0.9s;
+    transition: 10s;
+    background-color: black;
+}
+.d{
+    margin: 30px;
+    border: 5px solid#ff0000;
+    box-shadow: 4px 4px 4x 4px #ff00d4;
+}
+.d:hover{
+    box-shadow: 4px 4px 4x 4px goldenrod;
+    transition: 4s;
+}
+
+.d p{
+    width: 200px;
+    text-align: center;
+    margin-left: 50px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
