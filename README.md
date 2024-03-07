@@ -1,1 +1,1 @@
-# shayari.com
+# sha.yari.com
