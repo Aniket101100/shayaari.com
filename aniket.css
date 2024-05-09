@@ -2,6 +2,99 @@ body{
     background-color: black;
 }
 
+body{
+    background-color: black;
+}
+
+h1{
+    font-size: 50px;
+    font-style: italic;
+    color: rgb(48, 219, 211);
+    text-align: center;
+    text-shadow: 0 0 60px rgb(48, 219, 211),
+                 0 0 60px rgb(48, 219, 211),
+                 0 0 60px rgb(48, 219, 211),
+                 0 0 80px rgb(48, 219, 211),
+                 0 0 100px rgb(48, 219, 211),
+                 0 0 120px rgb(48, 219, 211),
+                 0 0 200px rgb(48, 219, 211),
+                 0 0 300px rgb(48, 219, 211),
+                 0 0 400px rgb(48, 219, 211);
+   animation: ani 10s linear infinite;              
+}
+
+@keyframes ani{
+    0%{
+        transform: rotate(190deg);
+        font-size: 50px;
+    }
+
+    20%{
+        transform: rotate(280deg);
+        font-size: 50px;
+    }
+
+    40%{
+        transform: rotate(700deg);
+        font-size: 50px;
+    }
+
+    60%{
+        transform: rotate(3600deg);
+        font-size: 50px;
+    }
+
+    80%{
+        transform: rotate(450deg);
+        font-size: 50px;
+    }
+
+    100%{
+        transform: rotate(720deg);
+        font-size: 50px;
+    }
+}
+
+h1:hover{
+    text-decoration: #e6da34;
+}
+
+marquee{
+    font-size: 35px;
+    font-weight: 800;
+    color: #6842bf;
+    font-family: sans-serif;
+    text-shadow: 5px 5px 10px #f0d9d9;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active{
+    background-color: #04AA6D;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
 .aman{
     display: flex;
     width: 100%;
